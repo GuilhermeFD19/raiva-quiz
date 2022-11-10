@@ -94,7 +94,7 @@ const q7 = {
     numQuestao   : 7,
     pergunta     : "Quais sao os principais sintomas da raiva",
     alternativaA : "febre, dor de cabeça, salivação em excesso, confusão e paralisia",
-    alternativaB : "Dor de garganta, dor no corpo e febreLado onde o sol nasce",
+    alternativaB : "Dor de garganta, dor no corpo e febre",
     alternativaC : "dor de dente, dor nas pernas",
     alternativaD : "não causa sintomas",
     correta      : "febre, dor de cabeça, salivação em excesso, confusão e paralisia",
