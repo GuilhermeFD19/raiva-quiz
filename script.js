@@ -89,44 +89,44 @@ const q6 = {
     alternativaD : "Não , animais após a vacina não podem realizar as atividades normais",
     correta      : "Sim, a vacina não deixa resíduos na carne ou no leite",
 }
+
 const q7 = {
     numQuestao   : 7,
-    pergunta     : "Poente é o mesmo que...",
-    alternativaA : "Lado onde o sol se põe",
-    alternativaB : "Lado onde o sol nasce",
-    alternativaC : "Abaixo do Equador",
-    alternativaD : "Acima do Equador",
-    correta      : "Lado onde o sol se põe",
+    pergunta     : "Quais sao os principais sintomas da raiva",
+    alternativaA : "febre, dor de cabeça, salivação em excesso, confusão e paralisia",
+    alternativaB : "Dor de garganta, dor no corpo e febreLado onde o sol nasce",
+    alternativaC : "dor de dente, dor nas pernas",
+    alternativaD : "não causa sintomas",
+    correta      : "febre, dor de cabeça, salivação em excesso, confusão e paralisia",
 }
 const q8 = {
     numQuestao   : 8,
-    pergunta     : "O Brasil se localiza em qual continente?",
-    alternativaA : "África",
-    alternativaB : "Europa",
-    alternativaC : "Oceania",
-    alternativaD : "América",
-    correta      : "América",
+    pergunta     : "Quais animais podem acometer a doença",
+    alternativaA : "Galinha, Peixe",
+    alternativaB : "Jabuti, Sapo",
+    alternativaC : "Mamíferos em geral",
+    alternativaD : "Não é transmitida por animais",
+    correta      : "Mamíferos em geral",
 }
 const q9 = {
     numQuestao   : 9,
-    pergunta     : "Qual é a única capital do Brasil cortada pela linha do Equador?",
-    alternativaA : "Belém",
-    alternativaB : "São Luís",
-    alternativaC : "Macapá",
-    alternativaD : "Boa Vista",
-    correta      : "Macapá",
+    pergunta     : "Onde se localiza o vírus no animal para transmitir a doença ?",
+    alternativaA : "Nos pelos",
+    alternativaB : "No rabo",
+    alternativaC : "Na saliva",
+    alternativaD : "No sangue",
+    correta      : "Na saliva",
 }
 const q10 = {
     numQuestao   : 10,
-    pergunta     : "Considerando a extensão territorial o Brasil é o ...",
-    alternativaA : "3º maior",
-    alternativaB : "2º maior",
-    alternativaC : "4º maior",
-    alternativaD : "5º maior",
-    correta      : "5º maior",
+    pergunta     : "Por que a raiva se chama raiva ?",
+    alternativaA : "Morte",
+    alternativaB : "Contaminação",
+    alternativaC : "Veneno vindo do latim",
+    alternativaD : "Uma infecção",
+    correta      : "Veneno vindo do latim",
 }
-
-// CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
+//DE OBJETOS COM TODAS AS QUESTOES
 const questoes = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
 
 let numero = document.querySelector('#numero')
